@@ -1,0 +1,56 @@
+//- pug template in use by html!
+doctype html
+html
+  head
+    title Flash Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo
+                img(src = "/static/a.png")
+                
+            li #[a(href = "/") Home] 
+            li #[a(href = "/") About Us]
+            li #[a(href = "/") Services]
+            li #[a(href = "/") Contact Us] 
+            li #[a(href = "/") Classes Time]
+
+    section#introSection    
+         div Welcome to Flash Dance Academy! 
+         div.small  !Eat Sleep Dance Repeat! 
+
+    section#missionSection 
+        h2 Our Mission's
+        div.card
+          h3 Dance Perfection 
+          div.card-box
+              div.card-img
+                  img(src="/static/a2.png")
+
+              div.card-content   
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquam, iusto voluptates deserunt cum in nam? Quas rem assumenda quod! 
+        div.card
+          h3 Expert Teaching 
+          div.card-box
+              div.card-img
+                  img(src="/static/a2.png")
+
+              div.card-content   
+                  p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquam, iusto voluptates deserunt cum in nam? Quas rem assumenda quod!
+
+
+    section#sponsorSection 
+         h3 Our Sponsor's 
+         div#spon
+             img(src="/static/os.png", alt="Sponsor Image", Class="spImg") 
+             img(src="/static/os1.png", alt="Sponsor Image", Class="spImg") 
+             img(src="/static/os2.png", alt="Sponsor Image", Class="spImg") 
+             img(src="/static/os3.png", alt="Sponsor Image", Class="spImg") 
+
+    footer#footer
+            | Copyright © 2022 FlashDanceAcademy.com || All right reserve! 
+
+    script
+      include ../static/index.js

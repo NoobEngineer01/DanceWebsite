@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-size: 1.1rem;
+    animation-duration: 5s;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 10px;
+    
+}
+
+#logo img{
+    height: 45px;
+    filter: invert(0);
+}
+
+#navbar{
+    background-color: black;
+    padding: 20px 5px;
+    font-family: 'Karla', sans-serif;
+    /* font-weight: bold; */
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+#navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+#navbar li a:hover{
+    text-decoration: none;
+    padding: 15px 30px;
+    color: aqua;
+    font-weight: bold;
+
+}
+
+#introSection{
+    padding-bottom: 0px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-family: 'Courier Prime', monospace;
+    background: center/cover no-repeat url("/static/d.gif") ;
+    background-origin: content-box;
+    background-size: cover;
+    height: 650px;
+}
+
+#introSection div{
+    font-size: 50px;
+    text-align: center;
+}
+
+#introSection div.small{
+    padding: 5px;
+    font-size: 30px;
+    opacity: .7;
+    color: whitesmoke;
+}
+
+#missionSection{
+    background: url("/static/d3.jpg");
+    height: 400px;
+    margin: auto;
+    width: 100%;
+
+}
+
+#missionSection h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    font-family: 'Courier Prime', monospace;
+    opacity: .7;
+    color: whitesmoke;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    width: 45%;
+    margin: 40px 30px;
+    height: 250px;
+    /* transition-duration: 5s; */
+}
+
+.card-content{
+    color: whitesmoke;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 15px;
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 15px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 25px;
+    margin: 35px 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-content p{
+    font-size: 25px;
+}
+
+#sponsorSection{
+    background: url("/static/d3.jpg");
+    height: 380px;
+}
+
+#sponsorSection h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: 'Courier Prime', monospace;
+    opacity: .8;
+    color: whitesmoke;
+}
+
+#spon{
+    height: 340px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.spImg{
+    height: 50%;
+    margin: 25px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    font-family: 'Karla', sans-serif;;
+}
+
+#footer:hover{
+    color: aqua;
+}
